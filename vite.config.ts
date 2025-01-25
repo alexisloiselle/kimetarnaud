@@ -9,7 +9,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools(), tailwindcss()],
-  base: '/kimetarnaud/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
