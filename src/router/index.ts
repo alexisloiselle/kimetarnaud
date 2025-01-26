@@ -1,10 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import FormView from '@/views/FormView.vue'
 import ConfirmationView from '@/views/ConfirmationView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -20,6 +21,10 @@ const router = createRouter({
       path: '/confirmation',
       name: 'confirmation',
       component: ConfirmationView,
+    },
+    {
+      path: '/:pathMatch(.*)*', // Matches any path
+      component: NotFoundView,
     },
   ],
 })
