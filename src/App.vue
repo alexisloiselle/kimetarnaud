@@ -7,7 +7,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 <template>
   <div class="h-[25vh] bg-gray-200 fixed w-[100vw] z-10" />
   <div class="relative flex flex-col w-[100vw] items-center bg-gray-200 z-20">
-    <div class="max-w-7xl w-full flex-col flex items-center">
+    <div id="content-wrapper" class="max-w-7xl w-full flex-col flex items-center">
       <HeaderComponent />
       <RouterView />
     </div>
@@ -15,4 +15,8 @@ import FooterComponent from '@/components/FooterComponent.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#content-wrapper {
+  min-height: calc(100vh - calc(var(--spacing) * 32));
+}
+</style>

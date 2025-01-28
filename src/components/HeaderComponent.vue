@@ -8,7 +8,7 @@ const isHomePage = computed(() => route.path === '/')
 </script>
 
 <template>
-  <header class="w-full py-4 px-4 pr-6">
+  <header class="w-full py-8 px-4 pr-6">
     <div class="flex justify-between items-center">
       <RouterLink to="/">
         <h1>K&A</h1>
