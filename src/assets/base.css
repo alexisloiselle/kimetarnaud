@@ -1,10 +1,14 @@
 @import 'tailwindcss';
 
+:root {
+  --header-height: calc(3rem + var(--spacing) * 2 * 8);
+}
+
 body {
   min-height: 100vh;
   overflow-x: hidden;
   color: var(--color-gray-900);
-  background: var(--color-gray-400);
+  background: var(--color-gray-200);
   transition:
     color 0.5s,
     background-color 0.5s;

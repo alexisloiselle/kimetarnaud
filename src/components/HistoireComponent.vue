@@ -1,5 +1,5 @@
 <template>
-  <p class="mt-20 lg:text-xl lg:leading-10! text-center text-md leading-7!">
+  <p class="text-center text-md leading-7!">
     petite histoire sur Kim et moi. Vestibulum eleifend eget lorem et venenatis. Nulla et sapien
     luctus, ultrices lectus vel, suscipit ante. Curabitur eget sagittis erat. Cras sed auctor nisi,
     quis tempor urna. Aliquam non porttitor orci. Curabitur blandit tristique arcu, eu laoreet

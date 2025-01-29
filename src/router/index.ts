@@ -2,7 +2,6 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import FormView from '@/views/FormView.vue'
 import ConfirmationView from '@/views/ConfirmationView.vue'
-import FaqView from '@/views/FaqView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 
 const router = createRouter({
@@ -22,11 +21,6 @@ const router = createRouter({
       path: '/confirmation',
       name: 'confirmation',
       component: ConfirmationView,
-    },
-    {
-      path: '/faq',
-      name: 'faq',
-      component: FaqView,
     },
     {
       path: '/:pathMatch(.*)*', // Matches any path

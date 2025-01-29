@@ -1,5 +1,5 @@
 <template>
-  <div class="self-center lg:mt-36 mt-16 max-w-[32rem] mx-4 lg:mx-0 rounded-t-full overflow-hidden">
+  <div class="self-center lg:max-w-[32rem] max-w-[24rem] rounded-t-full overflow-hidden">
     <img src="../assets/photo.png" />
   </div>
 </template>
