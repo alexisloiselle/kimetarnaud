@@ -14,7 +14,7 @@ defineProps<Props>()
 
 <template>
   <SectionLayout :id="id">
-    <SectionContent>
+    <SectionContent class="text-dark-green">
       <h2>FAQ</h2>
       <div class="flex flex-col gap-8">
         <div v-for="faqEntry in FAQ_CONTENT" :key="faqEntry.question" class="flex flex-col gap-4">

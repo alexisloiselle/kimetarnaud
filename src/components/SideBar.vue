@@ -12,15 +12,17 @@ const onClick = (id: string) => {
 
 const className = computed(() => {
   const baseClass =
-    'p-4 border-r-1 border-gray-900 side-bar overflow-hidden fixed sm:w-64 w-[100vw] top-0 bottom-0 bg-gray-300 z-30 '
-  return `${baseClass} ${sideBarStore.isOpen ? 'left-0' : 'sm:-left-64 left-[-100vw]'}`
+    'p-4 border-r-1 side-bar overflow-hidden fixed sm:w-80 w-[100vw] top-0 bottom-0 bg-gray z-30 '
+  return `${baseClass} ${sideBarStore.isOpen ? 'left-0' : 'sm:-left-80 left-[-100vw]'}`
 })
 </script>
 
 <template>
   <div :class="className">
     <div class="flex justify-between w-full">
-      <h4>Kim & Arnaud</h4>
+      <h4 class="moon-time text-[3rem]! leading-10!">
+        Kim<span class="leckerli-one text-wine-red align-middle text-sm"> & </span>Arnaud
+      </h4>
       <RoundButtonComponent @click="sideBarStore.toggle()">
         <PhX size="32" />
       </RoundButtonComponent>
@@ -41,5 +43,6 @@ const className = computed(() => {
 <style scoped>
 .side-bar {
   transition: left 0.3s;
+  border-color: var(--dark-green);
 }
 </style>

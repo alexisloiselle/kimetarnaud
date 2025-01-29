@@ -5,7 +5,7 @@ import SideBar from './components/SideBar.vue'
 </script>
 
 <template>
-  <div class="relative flex flex-col w-[100vw] items-center bg-gray-200 z-20">
+  <div class="relative flex flex-col w-[100vw] items-center bg-pink z-20">
     <HeaderComponent />
     <RouterView />
   </div>

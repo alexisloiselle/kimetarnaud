@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'MoonTime';
+  src: url('/fonts/MoonTime-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Courier';
+  src: url('/fonts/CourierPrime-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'LeckerliOne';
+  src: url('/fonts/LeckerliOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Funkids';
+  src: url('/fonts/Funkids-Regular.ttf');
+}
+
+.moon-time {
+  font-family: 'MoonTime', cursive;
+}
+
+.courier {
+  font-family: 'Courier', monospace;
+}
+
+.leckerli-one {
+  font-family: 'LeckerliOne', cursive;
+}
+
+.funkids {
+  font-family: 'Funkids', cursive;
+}

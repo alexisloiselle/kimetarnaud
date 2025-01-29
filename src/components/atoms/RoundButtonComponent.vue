@@ -12,6 +12,6 @@
 }
 
 .round-button:hover {
-  border-color: var(--color-gray-900);
+  border-color: var(--dark-green);
 }
 </style>

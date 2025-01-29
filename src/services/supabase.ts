@@ -8,6 +8,7 @@ const supabase = createClient(
 type FormSubmission = {
   full_name: string
   menu_choice: string
+  allergies: string
   special_request: string
 }
 

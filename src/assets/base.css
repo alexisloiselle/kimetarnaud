@@ -1,23 +1,54 @@
 @import 'tailwindcss';
+@import './fonts.css';
 
 :root {
   --header-height: calc(3rem + var(--spacing) * 2 * 8);
+  --gray: #c2c6b4;
+  --pink: #e6d9d1;
+  --light-orange: #fab14b;
+  --wine-red: #b0451b;
+  --light-red: #ed8059;
+  --dark-green: #045216;
 }
 
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  color: var(--color-gray-900);
-  background: var(--color-gray-200);
+  color: var(--wine-red);
+  background: var(--gray);
   transition:
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family: 'Lora', serif;
+  font-family: 'Courier', monospace;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.text-light-orange {
+  color: var(--light-orange);
+}
+
+.text-wine-red {
+  color: var(--wine-red);
+}
+
+.text-light-red {
+  color: var(--light-red);
+}
+
+.text-dark-green {
+  color: var(--dark-green);
 }
 
 .text-sm {

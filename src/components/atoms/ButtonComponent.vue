@@ -5,7 +5,14 @@ defineProps({
 </script>
 
 <template>
-  <button :type="type" class="text-xl border-2 rounded-md p-2 hover:bg-gray-300 active:bg-gray-300">
+  <button :type="type" class="button text-xl border-2 rounded-md p-2">
     <slot></slot>
   </button>
 </template>
+
+<style scoped>
+.button:hover,
+.button:active {
+  background-color: var(--gray);
+}
+</style>

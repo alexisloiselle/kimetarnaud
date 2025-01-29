@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import FullNameField from '@/components/fields/FullNameField.vue'
 import MenuField from '@/components/fields/MenuField.vue'
+import AllergiesField from '@/components/fields/AllergiesField.vue'
 import SpecialRequestField from '@/components/fields/SpecialRequestField.vue'
 import Button from '@/components/atoms/ButtonComponent.vue'
 import router from '@/router'
@@ -11,6 +12,7 @@ import SectionLayout from '@/sections/SectionLayout.vue'
 const form = ref({
   fullName: '',
   selectedMenu: '',
+  allergies: '',
   specialRequest: '',
 })
 
@@ -28,6 +30,7 @@ async function submitForm() {
       await addFormSubmission({
         full_name: form.value.fullName,
         menu_choice: form.value.selectedMenu,
+        allergies: form.value.allergies,
         special_request: form.value.specialRequest,
       })
 
@@ -51,6 +54,9 @@ async function submitForm() {
       </div>
       <div class="mt-4 w-full">
         <MenuField v-model="form.selectedMenu" :error="errors.selectedMenu" />
+      </div>
+      <div class="mt-4 w-full">
+        <AllergiesField v-model="form.allergies" />
       </div>
       <div class="mt-4 w-full">
         <SpecialRequestField v-model="form.specialRequest" />
