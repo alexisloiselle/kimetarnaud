@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import SelectInput from '@/components/atoms/SelectInput.vue'
 
-defineProps({
-  modelValue: { type: String, required: true },
-  error: { type: Boolean, default: false },
-})
+type Props = {
+  modelValue: string
+  error?: boolean
+}
 
+const { error = false } = defineProps<Props>()
 defineEmits(['update:modelValue'])
 
 const menuOptions = [

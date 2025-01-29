@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HistoireComponent from '@/components/HistoireComponent.vue'
+import StoryComponent from '@/components/StoryComponent.vue'
 import SectionLayout from './SectionLayout.vue'
 import SectionContent from './SectionContent.vue'
 
@@ -14,7 +14,7 @@ defineProps<Props>()
   <SectionLayout :id="id">
     <SectionContent>
       <h2 class="text-center">Une petite histoire</h2>
-      <HistoireComponent />
+      <StoryComponent />
     </SectionContent>
   </SectionLayout>
 </template>

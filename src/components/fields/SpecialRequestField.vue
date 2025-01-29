@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import TextInput from '@/components/atoms/TextInput.vue'
 
-defineProps({
-  modelValue: { type: String, required: true },
-})
+type Props = {
+  modelValue: string
+}
 
+defineProps<Props>()
 defineEmits(['update:modelValue'])
 </script>
 

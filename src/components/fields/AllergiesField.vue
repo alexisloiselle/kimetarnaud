@@ -15,6 +15,6 @@ defineEmits(['update:modelValue'])
     label="Allergies alimentaires"
     :modelValue="modelValue"
     @update:modelValue="$emit('update:modelValue', $event)"
-    placeholder="Vos allergies, si applicalbe"
+    placeholder="Vos allergies, si applicable"
   />
 </template>

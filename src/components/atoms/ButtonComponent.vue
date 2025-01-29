@@ -1,7 +1,9 @@
 <script setup lang="ts">
-defineProps({
-  type: { type: String as () => 'button' | 'reset' | 'submit', default: 'button' },
-})
+type Props = {
+  type: 'button' | 'reset' | 'submit'
+}
+
+const { type = 'button' } = defineProps<Props>()
 </script>
 
 <template>

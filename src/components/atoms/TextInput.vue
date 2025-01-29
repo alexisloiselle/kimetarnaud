@@ -1,13 +1,14 @@
 <script setup lang="ts">
-defineProps({
-  id: { type: String, required: true },
-  label: { type: String, required: true },
-  modelValue: { type: String, required: true },
-  error: { type: Boolean, default: false },
-  errorMessage: { type: String, default: '' },
-  placeholder: { type: String, default: '' },
-})
+type Props = {
+  id: string
+  label: string
+  modelValue: string
+  error?: boolean
+  errorMessage?: string
+  placeholder?: string
+}
 
+const { error = false, errorMessage = '', placeholder = '' } = defineProps<Props>()
 defineEmits(['update:modelValue'])
 </script>
 

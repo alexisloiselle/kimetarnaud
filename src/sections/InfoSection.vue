@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import SectionLayout from './SectionLayout.vue'
 import DateComponent from '@/components/DateComponent.vue'
-import AdresseComponent from '@/components/AdresseComponent.vue'
+import AddressComponent from '@/components/AddressComponent.vue'
 import ImageComponent from '@/components/ImageComponent.vue'
 import Button from '@/components/atoms/ButtonComponent.vue'
 
@@ -24,7 +24,7 @@ defineProps<Props>()
             >Arnaud
           </h1>
           <DateComponent />
-          <AdresseComponent />
+          <AddressComponent />
 
           <p class="text-center text-xs max-w-72 mt-8">
             On voit notre mariage comme la mise en commun de nos proches. Un événement simple et
