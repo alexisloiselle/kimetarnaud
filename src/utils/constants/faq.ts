@@ -13,7 +13,7 @@ export const FAQ_CONTENT = [
     question: 'Y-a-t-il un code vestimentaire?',
     answer:
       "On a hâte de vous voir dans vos beaux habits. Le code vestimentaire est “formal”, donc les filles robe longue, robe courte ou jumpsuit c’est comme vous préférez! D’ailleurs, vous voulez vous gâtez et vous acheter une nouvelle robe ou un nouvel habit. Voici des couleurs automnales pour vous inspirer.  Les invités ne sont pas tenus de s'habiller en fonction de la palette proposée.",
-    image: 'todo',
+    image: '/palette.jpg',
   },
   {
     question: 'Est-ce que mes enfants sont invités au mariage?',

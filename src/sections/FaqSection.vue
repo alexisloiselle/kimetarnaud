@@ -20,6 +20,11 @@ defineProps<Props>()
         <div v-for="faqEntry in FAQ_CONTENT" :key="faqEntry.question" class="flex flex-col gap-4">
           <QuestionComponent :question="faqEntry.question" />
           <AnswerComponent :answer="faqEntry.answer" />
+          <img
+            class="sm:max-w-96 max-w-[75vw] rounded-xl ml-8"
+            :src="faqEntry.image"
+            v-if="!!faqEntry.image"
+          />
         </div>
       </div>
     </SectionContent>
