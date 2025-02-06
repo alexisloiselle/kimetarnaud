@@ -12,7 +12,7 @@ defineProps<Props>()
 <template>
   <SectionLayout :id="id">
     <SectionContent class="text-dark-green">
-      <h2>Menus</h2>
+      <h2>Menu</h2>
       À venir
     </SectionContent>
   </SectionLayout>

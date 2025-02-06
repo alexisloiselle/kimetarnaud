@@ -13,7 +13,7 @@ defineProps<Props>()
 <template>
   <SectionLayout :id="id">
     <SectionContent>
-      <h2 class="text-center">Une petite histoire</h2>
+      <h2 class="text-center">Notre petite histoire</h2>
       <StoryComponent />
     </SectionContent>
   </SectionLayout>
