@@ -27,8 +27,8 @@ defineProps<Props>()
           <AddressComponent />
 
           <p class="text-center text-xs max-w-72 mt-8">
-            On voit notre mariage comme la mise en commun de nos proches. Un événement simple et
-            chaleureux pour célébrer les personnes qui nous ont permis de grandir ensemble.
+            On voit notre mariage comme la mise en commun de nos proches: un événement simple et
+            chaleureux pour célébrer avec les personnes qui nous ont permis de grandir ensemble.
           </p>
         </div>
         <RouterLink to="/formulaire">

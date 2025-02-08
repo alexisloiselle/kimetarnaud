@@ -5,7 +5,7 @@ Elle est petite, lui est plus grand.
 Elle a les cheveux noirs, lui a les cheveux roux.
 Elle ne prend pas de décision sans un tableau Excel, lui est spontané.
 Elle aime rire, lui aime la faire rire.
-Elle a besoin des moments seuls, lui ne veut jamais être tout seul.
+Elle a besoin de moments seuls, lui ne veut jamais être tout seul.
 Elle aime lui donner de l'affection quand il est occupé, lui aime l'énerver toute sa vie.
 Elle est sassy, lui est cocky.
 Elle est un moulin à parole à ses côtés, lui est un moulin à parole avec les autres.
