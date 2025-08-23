@@ -13,7 +13,7 @@ type FormSubmission = {
 }
 
 export const addFormSubmission = async (data: FormSubmission) => {
-  const { data: formSubmission, error } = await supabase.from('form_submissions').insert([data])
+  const { data: formSubmission, error } = await supabase.from('form_submissions_v2').insert([data])
   if (error) {
     throw error
   }

@@ -10,9 +10,9 @@ const { error = false } = defineProps<Props>()
 defineEmits(['update:modelValue'])
 
 const menuOptions = [
-  { value: 'seafood', label: 'Option fruits de mer: Risotto aux fruits de mer' },
-  { value: 'meat', label: "Option viande : Osso bucco avec légumes d'accompagnement" },
-  { value: 'vegetarian', label: 'Option végétarienne : encore en création' },
+  { value: 'fish', label: 'Omble chevalier, purée de légumes, sauce vierge verte' },
+  { value: 'meat', label: "Contre-filet de New York ciselé (cuisson médium-saignant), pommes de terre rôties, sauce au poivre" },
+  { value: 'vegetarian', label: 'Option végétarienne' },
 ]
 </script>
 

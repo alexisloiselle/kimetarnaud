@@ -2,6 +2,7 @@
 type Props = {
   id: string
   label: string
+  sublabel?: string
   modelValue: string
   error?: boolean
   errorMessage?: string
@@ -15,6 +16,7 @@ defineEmits(['update:modelValue'])
 <template>
   <div>
     <label :for="id" class="block text-lg">{{ label }}</label>
+    <p v-if="sublabel" class="text-xs text-gray-500 mt-1">{{ sublabel }}</p>
     <input
       type="text"
       :id="id"

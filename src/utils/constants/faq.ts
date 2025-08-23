@@ -2,12 +2,21 @@ export const FAQ_CONTENT = [
   {
     question: 'À quelle heure devrais-je arriver?',
     answer:
-      "La cérémonie débute à 16h30. On vous prie d'arriver d'avance entre 16h et 16h30 pour vous laisser le temps de prendre place pour que la cérémonie puisse débuter à 16h30.",
+      "La cérémonie débute à 17h00. On vous prie d'arriver d'avance entre 16h30 et 17h00 pour vous laisser le temps de prendre place pour que la cérémonie puisse débuter à 17h00.",
   },
   {
     question: 'Est-ce que la cérémonie et la réception se déroulent au même endroit?',
     answer:
-      'Si vous connaissez bien Kim et son incertitude, le lieu de la cérémonie est encore à déterminer. Ça travaille la patience à Arnaud, mais on se pratique déjà pour le mariage. Plus de détails sont à venir.',
+      "Vous serez contents de savoir que Kim s'est finalement décidée. Oui, tout se déroule au restaurant île de France - le 9e.",
+  },
+  {
+    question: 'Y a-t-il un stationnement disponible sur place?',
+    answer: 'Le 9e se situe au Centre Eaton. Le Centre Eaton offre du stationnement payant.',
+  },
+  {
+    question: 'Est-ce que le menu est final?',
+    answer:
+      'On vous invite à soumettre votre choix en fonction du nouveau menu. Ce menu est final.',
   },
   {
     question: 'Y-a-t-il un code vestimentaire?',
@@ -26,11 +35,6 @@ export const FAQ_CONTENT = [
       "En raison du nombre limité de places, on ne peut offrir des places supplémentaires qu'à un petit nombre de personnes. Les noms des personnes invitées sont indiqués sur l'invitation. Si vous désirez inviter un +1, SVP communiquez avec Kim ou Arnaud.",
   },
   {
-    question: 'Est-ce que le menu est final?',
-    answer:
-      "Sachez que le menu peut varier en fonction des produits de saison disponibles. Nous allons tenter de respecter vos options (poisson, viande ou végétarienne). Si jamais, vous avez d'autres particularités alimentaires, SVP vous adressez à Kim ou à Arnaud.",
-  },
-  {
     question: 'Que puis-je offrir si je désire gâter les mariés?',
     answer:
       "On tient à préciser que votre présence à notre mariage est le plus beau des cadeaux. Cependant, si certains d'entre vous souhaitent offrir un cadeau, une contribution monétaire serait grandement appréciée.",
@@ -39,11 +43,6 @@ export const FAQ_CONTENT = [
     question: 'Puis-je diffuser les photos du mariage sur les réseaux sociaux ou en ligne?',
     answer:
       "Pour ceux qui connaissent bien Arnaud, il est incognito sur internet et il désire le rester. Ainsi, vous êtes libres de diffuser des photos où son visage n'apparaît pas. À venir, une plateforme ou un drive avec un accès limité sera créé pour qu'on puisse partager les photos de la soirée.",
-  },
-  {
-    question: 'Y a-t-il un stationnement disponible sur place?',
-    answer:
-      'Le Fiorellino n\'a pas de stationnement réservé. Sachant que le restaurant est situé à Montréal, comme le proverbe le dit :  "quand on cherche, on trouve!"',
   },
   {
     question: "J'ai une question sans réponse...",

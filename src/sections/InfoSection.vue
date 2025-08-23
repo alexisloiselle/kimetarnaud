@@ -26,14 +26,23 @@ defineProps<Props>()
           <DateComponent />
           <AddressComponent />
 
-          <p class="text-center text-xs max-w-72 mt-8">
+          <p class="text-center max-w-96 mt-8">
+            Heure d'arrivée entre 16h30 et 17h00<br />Début de la cérémonie à 17h00
+          </p>
+
+          <p class="text-center max-w-96 mt-8">
             On voit notre mariage comme la mise en commun de nos proches: un événement simple et
             chaleureux pour célébrer avec les personnes qui nous ont permis de grandir ensemble.
           </p>
         </div>
-        <RouterLink to="/formulaire">
-          <Button>RSVP</Button>
-        </RouterLink>
+        <div class="flex flex-col items-center gap-4">
+          <RouterLink to="/formulaire">
+            <Button>RSVP</Button>
+          </RouterLink>
+          <p class="text-center max-w-72 mt-8">
+            SVP veuillez soumettre à nouveau votre choix de nourriture
+          </p>
+        </div>
         <ImageComponent class="block lg:hidden" />
       </div>
     </div>

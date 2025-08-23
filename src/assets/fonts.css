@@ -18,6 +18,11 @@
   src: url('/fonts/Funkids-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Shrikhand';
+  src: url('/fonts/Shrikhand-Regular.ttf');
+}
+
 .moon-time {
   font-family: 'MoonTime', cursive;
 }
@@ -32,4 +37,8 @@
 
 .funkids {
   font-family: 'Funkids', cursive;
+}
+
+.shrikhand {
+  font-family: 'Shrikhand', cursive;
 }
